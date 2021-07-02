@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body{
+  background: #f1f5f8;
+  
+}
+p{
+  margin:0;
+}
+img{
+  max-width: 100%;
+}
+
+.card{
+  width: 620px;
+  background: white;
+  overflow: hidden;
+  margin:50px auto;
+  border-radius: 6px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+}
+.card__img{
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: #49a6e9;
+  margin:20px auto;
+}
+.card__img img{
+  position: absolute;
+  width: 97%;
+  height:97%;
+  top: 2%;
+  left: -8px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.card__profile{
+  padding:20px;
+  padding-top:0;
+}
+.card__name {
+  font-size:16px;
+  font-weight: bold;
+  letter-spacing: 1.6px;
+  margin-bottom: 8px;
+}
+.card__pos{
+  font-size: 13px;
+  color:#49a6e9;
+  margin-bottom: 8px;;
+}
+.card__content{
+  font-size:16px;
+  color:#617d98;
+  line-height: 24px;
+  margin-bottom: 4px;
+}
+.card__action{
+  margin:14px 0;
+}
+.card__action .fas{
+  font-size:20px;
+  color:#8bcbf9;
+  margin:0 14px;
+  
+}
+.card__action .fas:hover{
+  cursor: pointer;
+  color: #49a6e9;
+}
+.btn{
+  display: inline-block;
+  background: transparent;
+  border:none;
+  padding:6px 10px;
+  border-radius: 2px;
+  
+}
+.btn-primary{
+  background: #ebf7ff;
+  color:#49a6e9;
+  transition: all ease 0.6s;
+}
+.btn:hover{
+  cursor: pointer;
+  background: #49a6e9;
+  color:#063251;
+}
